@@ -10,6 +10,9 @@
   <div class="photobooth">
     <div class="controls">
       <button onClick="takePhoto()">Take Photo</button>
+      <button onClick="filter('red')">Red filter</button>
+      <button onClick="filter('rgb')">RGB Filter</button>
+      <button onClick="filter('none')">No Filter</button>
 <!--       <div class="rgb">
         <label for="rmin">Red Min:</label>
         <input type="range" min=0 max=255 name="rmin">
@@ -33,7 +36,7 @@
     </div>
 
     <canvas class="photo"></canvas>
-    <video class="player"></video>
+    <video class="player" style="display: none"></video>
     <div class="strip"></div>
   </div>
 
