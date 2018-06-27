@@ -1,0 +1,10 @@
+{
+  "version": "0.1.0",
+  "command": "Chrome",
+  "osx": {
+    "command": "/Applications/Chromium.app/Contents/MacOS/Chromium"
+  },
+  "args": [
+    "/Users/calebburton/Documents/GitHub/JavaScript30/20 - Speech Detection/index-START.html"
+  ]
+}
